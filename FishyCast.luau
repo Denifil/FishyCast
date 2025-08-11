@@ -13,6 +13,7 @@ export type FCastSettings = {
     Acceleration:Vector3;
     LstTrajectory:Trajectory;
     Time:number;
+    TimeDelta:number;
 }
 
 export type FCaster = {
@@ -20,6 +21,7 @@ export type FCaster = {
         ID:number;
         LinkedObj:Instance?;
     };
+    Settings:FCastSettings;
     
 }
 
