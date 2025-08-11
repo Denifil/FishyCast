@@ -1,6 +1,8 @@
 local RS = game:GetService("RunService")
 
 export type Trajectory = {
+    InitPos:Vector3;
+    InitVelocity:Vector3;
     
 }
 
